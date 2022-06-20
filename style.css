@@ -12,7 +12,7 @@ body {
 	line-height: 1.8em;
 	text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
 	/* background: #fff; */
-	background: url(./images/background.png);
+	background: url(https://nanako-1253183981.cos.ap-guangzhou.myqcloud.com/public-IMG/background.png);
 	background-size: cover;
 }
 
@@ -23,7 +23,7 @@ body {
 		line-height: 1.8em;
 		text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
 		/* background: #fff; */
-		background: url(./images/background-vertical.png);
+		background: url(https://nanako-1253183981.cos.ap-guangzhou.myqcloud.com/public-IMG/background-vertical.png);
 		background-size: cover;
 	}
 }
