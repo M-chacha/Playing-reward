@@ -11,7 +11,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	line-height: 1.8em;
 	text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
-	background: #fff;
+	/* background: #fff; */
+	background: url(./images/background.png);
+	background-size: cover;
 }
 
 img {
@@ -84,7 +86,7 @@ a {
 }
 
 #donateBox li {
-	width: 74px;
+	width: 148px;
 	float: left;
 	text-align: center;
 	border-left: 1px solid #ddd;
