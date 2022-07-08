@@ -8,7 +8,9 @@ const aqr = 'images/AliPayQR.JPG'
 const wqr = 'images/WeChanQR.JPG'
 
 const showQR = (QR) => {
-	if (QR) mbox.style.backgroundImage = `url(${ QR })`
+	const imgbox = `<img src="${ QR } />`
+	// if (QR) mbox.style.backgroundImage = `url(${ QR })`
+	if (QR) mbox.insertAdjacentHTML('afterbegin', imgbox)
 	bd.classList.add('blur')
 	qbox.classList.add('fadeIn')
 	mbox.classList.add('showQR')
