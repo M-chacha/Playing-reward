@@ -25,7 +25,6 @@ body {
 		/* background: #fff; */
 		background: url(https://nanako-1253183981.cos.ap-guangzhou.myqcloud.com/public-IMG/background-vertical.png);
 		background-size: cover;
-		user-select: none;
 	}
 }
 
@@ -67,6 +66,7 @@ a {
 
 .tr3 {
 	transition: all .3s;
+	user-select: none;
 }
 
 #DonateText {
