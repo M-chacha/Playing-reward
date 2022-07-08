@@ -16,7 +16,7 @@ body {
 	background-size: cover;
 }
 
-@media screen and (max-width:960px){
+@media screen and (max-width:960px) {
 	body {
 		font-family: "Helvetica Neue", Ubuntu, "WenQuanYi Micro Hei", Helvetica, "Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Micro Hei Mono", "WenQuanYi Zen Hei", "WenQuanYi Zen Hei", "Apple LiGothic Medium", "SimHei", "ST Heiti", "WenQuanYi Zen Hei Sharp", Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
@@ -66,6 +66,13 @@ a {
 
 .tr3 {
 	transition: all .3s;
+}
+
+.noneselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 	user-select: none;
 }
 
@@ -206,38 +213,47 @@ a {
 	from {
 		transform: rotateX(90deg);
 	}
+
 	8% {
 		opacity: 1;
 		transform: rotateX(-60deg);
 	}
+
 	18% {
 		opacity: 1;
 		transform: rotateX(40deg);
 	}
+
 	34% {
 		opacity: 1;
 		transform: rotateX(-28deg);
 	}
+
 	44% {
 		opacity: 1;
 		transform: rotateX(18deg);
 	}
+
 	58% {
 		opacity: 1;
 		transform: rotateX(-12deg);
 	}
+
 	72% {
 		opacity: 1;
 		transform: rotateX(9deg);
 	}
+
 	88% {
 		opacity: 1;
 		transform: rotateX(-5deg);
 	}
+
 	96% {
 		opacity: 1;
 		transform: rotateX(2deg);
 	}
+
 	to {
 		opacity: 1;
 	}
@@ -255,11 +271,13 @@ a {
 
 @keyframes hideQR {
 	from {}
+
 	20%,
 	50% {
 		transform: scale(1.08, 1.08);
 		opacity: 1;
 	}
+
 	to {
 		opacity: 0;
 		transform: rotateZ(40deg) scale(0.6, 0.6);
@@ -270,6 +288,7 @@ a {
 	from {
 		opacity: 0;
 	}
+
 	to {
 		opacity: 1;
 	}
@@ -284,6 +303,7 @@ a {
 	from {
 		opacity: 1;
 	}
+
 	to {
 		opacity: 0;
 	}
